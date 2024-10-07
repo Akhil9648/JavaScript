@@ -1,0 +1,25 @@
+//1. Add a variable to string
+let a="1"
+a=a+6
+console.log(a)
+//2.Use type of variable to find type of string
+console.log(typeof(a))
+//3. Not Possible
+//4.Try to add a nwe key to constant object
+const obj={
+    name:"Vimal",
+    class:11,
+    Section:"a"
+}
+console.log(obj)
+obj['name']="Virat"
+console.log(obj)
+//5. WA js P to create Word meaning dictionary of 5 meanings
+const word={
+    Cow:"Animal",
+    Sparrow:"Bird",
+    Algorithm:"Process",
+    Python:"Language",
+    Cricket:"Game"
+}
+console.log(word) 
