@@ -1,0 +1,9 @@
+//Objects
+console.log("Name and marks of Students:")
+const item={
+    "Rahul":74,
+    "Rohan":78,
+    "Karan":85,
+    "Virat":95
+}
+console.log("Rahul:",item["Rahul"])
