@@ -1,0 +1,12 @@
+//nn bb ss uu
+//Primitive Datatypes
+let a=null;
+let b=345;
+let c=true;
+let d=BigInt("547")+BigInt("521")
+let e="Virat"
+let f=Symbol("Hyy!! Everybody")
+let g=undefined
+let h
+console.log(a,b,c,d,e,f,g,h)
+console.log(typeof a,typeof b,typeof c,typeof d,typeof e,typeof f,typeof g,typeof h)
