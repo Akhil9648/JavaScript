@@ -1,0 +1,71 @@
+// 1.
+let a=prompt("Enter the age:")
+if(a>=10 && a<=20)
+{
+    console.log("Age is between 10 and 20")
+}
+else
+{
+    console.log("Invalid Age")
+}
+// 2.
+switch(a)
+{
+    case '10':
+        console.log("Age lies between 10 and 20")
+        break;
+    case '11':
+        console.log("Age lies between 10 and 20")
+        break;
+    case '12':
+        console.log("Age lies between 10 and 20")
+        break;
+    case '13':
+        console.log("Age lies between 10 and 20")
+        break;
+    case '14':
+        console.log("Age lies between 10 and 20")
+        break;
+    case '15':
+        console.log("Age lies between 10 and 20")
+        break;
+    case '16':
+        console.log("Age lies between 10 and 20")
+        break;
+    case '17':
+        console.log("Age lies between 10 and 20")
+        break;
+    case '18':
+        console.log("Age lies between 10 and 20")
+        break;
+    case '19':
+        console.log("Age lies between 10 and 20")
+        break;
+    case '20':
+        console.log("Age lies between 10 and 20")
+        break;
+    default:
+        console.log("Imvalid age")
+}
+// 3.
+num=prompt("Enter a number:")
+if(num%2==0 && num%3==0)
+{
+    console.log("Number is divisible")
+}
+else
+{
+    console.log("Not Divisible")
+}
+// 4.
+num=prompt("Enter a number:")
+if(num%2==0 || num%3==0)
+{
+    console.log("Number is divisible")
+}
+else
+{
+    console.log("Not Divisible")
+}
+// 5.
+console.log("You can", (a>18?"Drive":"Not Drive"))
