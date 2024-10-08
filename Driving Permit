@@ -1,0 +1,14 @@
+let a=prompt("Enter Your Age:")
+if(18<a)
+{
+    console.log("You can Drive")
+}
+else if(a>16)
+{
+    console.log("Wait for a year")
+}
+else
+{
+    console.log("You can't Drive")
+}
+console.log("You can", (a>18?"Drive":"Not Drive"))
