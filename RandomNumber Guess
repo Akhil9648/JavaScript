@@ -1,0 +1,22 @@
+let x=Math.floor((Math.random() * 100) + 1);;
+let count=0;
+while(1)
+{
+    y=parseInt(prompt("Guess a number:"))
+    if(x==y)
+    {
+        console.log("Damn You did it,Your Score is",100-count);
+        break;
+    }
+    
+    if(x>y)
+    {
+        console.log("Guess little large number")
+        count+=1;
+    }
+    if(x<y)
+    {
+        console.log("Guess little small number")
+        count+=1;
+    }
+}
